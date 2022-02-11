@@ -1,0 +1,73 @@
+
+.AddBtn {
+    color:white;
+    background-color: rgb(185, 76, 76);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 4px;
+    height: 30px;
+    width: auto;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .AddBtn:hover {
+    background-color: rgb(197, 124, 124);
+    transition: all 0.2s ease-out;
+  }
+
+  .heading {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .ToDoList {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .ToDo {
+    margin-bottom: 8px;
+    height: 40px;
+    border: 2px solid rgb(185, 76, 76);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .ToDo span {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight:bold;
+  }
+
+  .ToDo button {
+    background-color: rgb(185, 76, 76);
+    color: white;
+    height: 100%;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .ToDo button:hover {
+    background-color: rgb(197, 124, 124);
+    transition: all 0.2s ease-out;
+  }
+
+  .form-input {
+    width: 25%; 
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', sans-serif;
+  }
